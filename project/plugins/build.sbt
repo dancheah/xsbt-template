@@ -1,7 +1,7 @@
 // SBT Idea Plugin
 resolvers += "sbt-idea-repo" at "http://mpeltonen.github.com/maven/"
 
-libraryDependencies += "com.github.mpeltonen" %% "sbt-idea" % "0.10.1"
+libraryDependencies += "com.github.mpeltonen" %% "sbt-idea" % "0.10.0"
 
 // SBT Assembly Plugin
 libraryDependencies <+= (sbtVersion) { sv => "com.eed3si9n" %% "sbt-assembly" % ("sbt" + sv + "_0.4") }
