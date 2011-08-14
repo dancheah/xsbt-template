@@ -27,6 +27,7 @@ seq(webSettings :_*)
 // Repositories to Include
 resolvers ++= Seq(
   "Nexus Scala Tools Repository" at "http://nexus.scala-tools.org/content/repositories/releases/",
+  "Scala Tools Snapshots" at "http://scala-tools.org/repo-snapshots/",
   "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases"
 )
 
@@ -61,6 +62,7 @@ libraryDependencies ++= Seq(
 // Misc Libs
 libraryDependencies ++= Seq(
   "se.scalablesolutions.akka" % "akka-actor" % "1.1.3",
+  "org.scalaz" % "scalaz-core_2.9.0-1" % "6.0.1",
   "org.apache.lucene" % "lucene-core" % "3.3.0",
   "org.apache.mahout" % "mahout-core" % "0.5"
 )
