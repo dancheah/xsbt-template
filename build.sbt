@@ -44,6 +44,7 @@ libraryDependencies ++= Seq(
 libraryDependencies ++= Seq(
   "org.hsqldb" % "hsqldb" % "2.2.4",
   "com.h2database" % "h2" % "1.3.159",
+  "postgresql" % "postgresql" % "8.4-701.jdbc4",
   "org.squeryl" % "squeryl_2.9.0-1" % "0.9.4"
 )
 
